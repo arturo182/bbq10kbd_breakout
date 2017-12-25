@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Connectors_Hirose_extra)(type KiCad)(uri "$(KIPRJMOD)/modules/Connectors_Hirose_extra.pretty")(options "")(descr ""))
+)
