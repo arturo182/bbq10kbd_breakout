@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:bbq10breakout-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -25,7 +26,7 @@ F 3 "" H 6000 2450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5300 2200 5400 2200
+	5300 2200 5350 2200
 Wire Wire Line
 	5350 2200 5350 2150
 Wire Wire Line
@@ -41,7 +42,7 @@ Wire Wire Line
 Wire Wire Line
 	5400 3300 5350 3300
 Wire Wire Line
-	5350 3300 5350 3450
+	5350 3300 5350 3400
 Wire Wire Line
 	5350 3400 5400 3400
 Connection ~ 5350 3400
@@ -93,7 +94,7 @@ F 3 "" H 5350 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C1
+L Device:C_Small C1
 U 1 1 5A384436
 P 5200 2200
 F 0 "C1" V 4971 2200 50  0000 C CNN
@@ -261,7 +262,7 @@ F 3 "" H 9650 1250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Conn_01x08 J1
+L Connector_Generic:Conn_01x08 J1
 U 1 1 5A38AC19
 P 8300 1550
 F 0 "J1" H 8380 1542 50  0000 L CNN
@@ -272,7 +273,7 @@ F 3 "~" H 8300 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x08 J2
+L Connector_Generic:Conn_01x08 J2
 U 1 1 5A38BC0E
 P 9400 1550
 F 0 "J2" H 9480 1542 50  0000 L CNN
@@ -287,4 +288,8 @@ Wire Wire Line
 Wire Wire Line
 	9600 1250 9650 1250
 NoConn ~ 9600 1950
+Wire Wire Line
+	5350 3400 5350 3450
+Wire Wire Line
+	5350 2200 5400 2200
 $EndSCHEMATC
