@@ -1,0 +1,3 @@
+bom: 1-click-bom.csv
+gerbers: gerber/
+summary: A very simple board breaking out the Q10 keyboard connector.

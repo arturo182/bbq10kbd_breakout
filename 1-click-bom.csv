@@ -1,0 +1,4 @@
+References,Qty,Description,Manufacturer,MPN,Digikey,Mouser,RS,Newark,Farnell
+"J2, J1",2,"pin header, 1x08, 2.54mm pitch, single row",Molex,901-20-0128,,,,,
+C1,1,Capacitor SMD 0603 100uF,,,,,,,
+U1,1,BM14B(0.8)-24DS-0.4V(53),Hirose,BM14B(0.8)-24DS-0.4V(53),H122178DKR-ND,798BM14B0824DS04V53,1620941,,2724957
